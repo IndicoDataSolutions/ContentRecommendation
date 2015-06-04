@@ -1,0 +1,4 @@
+IndicoIo==0.6.0
+scikit-learn==0.15.0
+scipy==0.15.1
+numpy==1.9.2
