@@ -11,6 +11,7 @@ def find_nearest(array, value, n=3):
     """
     Return the indices of the most similar documents
     """
+    # sort post indices by cosine distance
     idxs = cdist(array, np.asarray([value]), metric='cosine').argsort(axis=0)
     return idxs[:n]
 
